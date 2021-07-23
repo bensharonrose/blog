@@ -1,0 +1,101 @@
+body {
+  height: 100%;
+}
+
+.spin {
+  text-align: center;
+}
+
+.Header {
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+  margin: 1em;
+  background: #4e85c4;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.Body {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.UserBox {
+  float:right;
+  border: 2px solid #1c27c0;
+  background: #4e85c4;
+  margin-left: 20px;
+  padding:20px;
+  color: white;
+  font-weight: bold;
+}
+
+.UserBoxSelected {
+  float:right;
+  border: 2px solid #1c27c0;
+  background: #d38842;
+  margin-left: 20px;
+  padding:20px;
+  color: white;
+  font-weight: bold;
+}
+
+.PostSection {
+  display:flex;
+  
+}
+
+.PostInnerSection {
+  border: 2px solid #1c27c0;
+  background: #4e85c4;
+  margin-bottom:20px;
+  margin-left:70px;
+  width:600px;
+  padding:20px;
+  color: white;
+}
+
+.PostInnerSection span {
+  font-weight: bold;
+}
+
+.CommentBlock {
+  border: 2px solid #1c27c0;
+  margin-left:140px;
+  margin-top:20px;
+  margin-bottom:20px;
+  background: #4e85c4;
+  padding:20px;
+  width:600px;
+  color: white;
+}
+
+.CommentSection span {
+  font-weight:bold;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left:20px;
+ }
+
+h2 {
+  padding-left: 20px;
+}
+
+h3 {
+  padding-top:100px;
+  padding-left: 70px;
+}
+
+.morePostBtn {
+  margin-left: 50%;
+  background: #4e85c4 !important;
+  border-radius: 0px !important;
+  border: 2px solid #1c27c0 !important;
+  font-weight:bold;
+}
